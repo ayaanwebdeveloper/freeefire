@@ -278,6 +278,49 @@ transition: 0.5s;
 body{
     overflow-x: hidden;
 }
+
+.box{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    background-size: 100%;
+    border-radius: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    background-image: url(asset/img/an.jpg);
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 28, 219);
+    transition: 0.4s;
+    text-transform: bold;
+}
+.box:hover{
+   box-shadow: 0px 0px 10px black;
+   
+
+}
+.namer{
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 70px;
+}
+
+.box:hover .namer{
+    opacity: 1;
+    
+}
+.min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 @keyframes wolf {
     to{
       
